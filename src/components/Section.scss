@@ -1,0 +1,21 @@
+.root {
+  width: 100%;
+  height: 609px;
+  padding-top: 64px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  width:323px;
+  height:73px;
+  text-align: center;
+  font-size:45px;
+  font-weight:600;
+  color:rgba(65,54,127,1);
+  line-height:63px;
+}

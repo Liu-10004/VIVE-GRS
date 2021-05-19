@@ -1,0 +1,18 @@
+$containerWidth: 1140px;
+
+body {
+  min-width: $containerWidth;
+  margin: 0;
+  font-family: 'PingFangSC-Semibold,PingFang SC;'
+}
+
+:global {
+  .container {
+    // @see https://github.com/vivedu/VIVEDU-Homepage/issues/150
+    position: relative;
+    width: $containerWidth;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,157 @@
+
+.formCard {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+
+    .header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        h2 {
+            display: inline;
+            font-size:17px;
+            font-weight:600;
+            color:rgba(50,60,71,1);
+            line-height:24px;
+        }
+
+        span {
+            display: inline-block;
+            height:15px;
+            font-size: 12px;
+            font-weight:600;
+            color:rgba(50,60,71,1);
+            line-height:15px;
+            width: 328px;
+            vertical-align: text-top;
+        }
+    }
+}
+
+.schoolCard,
+.memberCard {
+    padding-top: 10px;
+    padding-right: 28px;
+    padding-left: 10px;
+}
+
+.memberCard {
+    padding-bottom: 20px;
+    border-bottom: 2px dotted rgba(50, 60, 71, 0.5);
+}
+
+.memberCard:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.formItem {
+    width: 367px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+
+    .row + .row {
+        margin-left: 10px;
+    }
+}
+
+.input {
+    width:265px;
+    height:30px;
+    background:rgba(233,240,254,1);
+    border-radius:5px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-left: 5px;
+
+    &.sm {
+        width: 109px;
+    }
+
+    &.error {
+        border:1px solid rgba(221,108,115,1);
+    }
+}
+
+.radioGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #333;
+
+    &:disabled {
+      color: #888;
+      cursor: not-allowed;
+    }
+}
+
+.outterCircle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #f2f5f6;
+    box-shadow: 1px 1px 2px 0 rgba(27, 75, 115, 0.35);
+    position: relative;
+}
+
+.innerCircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 1px 1px 1px 0 rgba(109, 137, 153, 0.5);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+
+    &.selected {
+        background: rgba(221,108,115,1);;
+        box-shadow: 1px 1px 1px 0 rgba(221,108,115,1);
+    }
+}
+
+.text {
+    margin-left: 6px;
+}
+
+.btn {
+    width: 76px;
+    height: 29px;
+    line-height: 29px;
+    padding: 0 5px;
+    background:linear-gradient(137deg,rgba(117,64,120,1) 0%,rgba(255,108,107,1) 100%);
+    text-align: center;
+    vertical-align: middle;
+    font-size:12px;
+    color: rgba(255,255,255,1);
+    font-weight:600;
+    border-radius:13px;
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+}
+
+
+

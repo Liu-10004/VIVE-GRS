@@ -1,0 +1,57 @@
+.section {
+  height: auto;
+}
+.content {
+  h2,h3,h4,p{
+    text-align: left;
+    width: 100%;
+    margin: 12px 0;
+  }
+  p{
+    margin: 10px 0;
+  }
+  section{
+    font: 15px;
+    line-height: 30px;
+    color: #333;
+  }
+  
+  img {
+    width: 75%;
+    height: 100%;
+    position: relative;
+    top: 20px;
+  }
+  .t1Container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+  }
+  .t1{
+    width: 32%;
+  }
+  .t3{
+    width: 75%;
+    margin-bottom: 40px;
+  }
+  .a1{
+    display: none;
+  }
+
+  .a2 {
+    top: -148px
+  }
+  .a3 {
+    top: -182px;
+  }
+  .a4 {
+    top: -242px
+  }
+  .a5{
+    top: -303px
+  }
+  .a6 {
+    top: -340px;
+  }
+}

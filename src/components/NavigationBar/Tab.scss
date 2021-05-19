@@ -1,0 +1,25 @@
+@import '../../styles/colors.scss';
+
+.root {
+  display: flex;
+  box-sizing: border-box;
+  padding: 3px 6px 0;
+  line-height: 1.2em;
+  cursor: pointer;
+  color: currentColor;
+
+  & + & {
+    margin-left: 34px;
+  }
+
+  &:hover {
+    color: $themeColor;
+  }
+}
+
+.active {
+  // NOTE: 撑起下划线
+  padding-bottom: 5px;
+  color: $themeColor;
+  border-bottom: 4px solid $themeColor;
+}

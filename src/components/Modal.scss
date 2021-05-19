@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+}
+
+.close {
+  padding: 0;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  right: -31px;
+  color: #fff;
+
+  .icon {
+    // 使该 SVG 元素不是鼠标事件的目标, 取消其对事件冒泡的影响
+    // @see https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
+    pointer-events: none;
+  }
+}

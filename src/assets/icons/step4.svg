@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>大赛流程/4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="大赛流程/4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(6.000000, 9.000000)" stroke="#41367F">
+            <rect id="Rectangle" stroke-width="14.4" x="7.2" y="14.88" width="93.6" height="87.92" rx="12.6"></rect>
+            <rect id="Rectangle" stroke-width="14.4" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="30.6" y="0" width="48.6" height="24.64" rx="12.32"></rect>
+            <path d="M79.7170965,42.5811 C77.6630829,40.8463803 74.5649118,40.9745217 72.6712441,42.872519 L48.9971805,67.0726926 L39.3123363,56.9226326 C37.4429969,54.9975693 34.3410368,54.8337844 32.2664839,56.5506084 C31.2837514,57.3557291 30.6845109,58.5153087 30.6082705,59.7593873 C30.5320302,61.0034659 30.9854423,62.2234931 31.8629488,63.1354366 L45.2308521,77.1421474 C46.1724343,78.1280115 47.5111461,78.6922482 48.9267219,78.704649 L48.9523433,78.704649 C50.342946,78.7069939 51.6738906,78.1580382 52.6354024,77.1855502 L80.0309572,49.178329 C80.9234164,48.2773561 81.3950449,47.0614659 81.3357235,45.8145531 C81.276402,44.5676402 80.6913236,43.3988573 79.7170965,42.5811 Z" id="Path" stroke-width="2.7" fill="#41367F" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

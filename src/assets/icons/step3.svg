@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>大赛流程/3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="大赛流程/3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(2.000000, 1.000000)">
+            <rect id="Rectangle" stroke="#41367F" stroke-width="14.4" x="7.2" y="19.45" width="91.859542" height="92.35" rx="12.6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="60.2137405" y="7.875" width="52.2442748" height="51.625"></rect>
+            <g id="comment" transform="translate(45.160305, 0.000000)" fill="#41367F" fill-rule="nonzero">
+                <path d="M69.4170816,17.5385875 L64.4775116,22.3834792 L48.0279176,6.23897493 L52.9674876,1.40088978 C54.7802393,-0.382568217 57.6377629,-0.476069927 59.3358799,1.19454125 L69.6193853,11.2832891 C71.3242739,12.953542 71.2298333,15.7554878 69.4170816,17.5385875 Z M25.7895136,60.356387 L9.34004051,44.2116439 L45.5278414,8.7014247 L61.9775564,24.8460484 L25.7895136,60.356387 Z M23.4983918,62.6056816 L0.471692965,69.0606413 L7.04891868,46.4606997 L23.4983918,62.6056816 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
